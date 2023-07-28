@@ -5,6 +5,5 @@ class BookmarksController < ApplicationController
 
   def create
     @bookmark = Bookmark.new
-    @
   end
 end

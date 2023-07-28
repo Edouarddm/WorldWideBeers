@@ -17,7 +17,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_06_27_095422) do
   create_table "beers", force: :cascade do |t|
     t.string "name"
     t.string "country"
-    t.string "type"
+    t.string "style"
     t.integer "abv"
     t.string "poster_url"
     t.datetime "created_at", null: false

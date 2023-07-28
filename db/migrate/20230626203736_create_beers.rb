@@ -3,7 +3,7 @@ class CreateBeers < ActiveRecord::Migration[7.0]
     create_table :beers do |t|
       t.string :name
       t.string :country
-      t.string :type
+      t.string :style
       t.integer :abv
       t.string :poster_url
 
